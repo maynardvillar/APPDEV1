@@ -1,0 +1,3 @@
+
+
+Analyze the @src\App.css @src\components\tracks\SongList.css styling and apply a smooth, moody R&B aesthetic. I want it to feel like a late-night music streaming app — warm amber/gold accents, soft shadows, rounded cards with subtle glow on hover. Don't add new files, just new styling.
