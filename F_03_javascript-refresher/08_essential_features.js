@@ -1,4 +1,4 @@
-const hobbies = ["coding", "gaming", "sleeping"];
+const hobbies = ["Eating", "gaming", "sleeping"];
 hobbies.map(hobby => console.log(hobby));
 
 const student = { name: "Maynard", age: 21 };
