@@ -7,6 +7,6 @@ const aboutMe = {
   }
 };
 
-aboutMe.hobby = "Coding";
+aboutMe.hobby = "Reading";
 aboutMe.introduce();
 console.log(aboutMe.hobby);
