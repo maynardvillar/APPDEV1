@@ -8,7 +8,7 @@ function divide(a, b) {
 try {
   console.log(divide(20, 0));
 } catch (error) {
-  console.log("Oops, may mali:", error.message);
+  console.log("ay, may mali:", error.message);
 }
 
 const user = { name: "Maynard", age: 21, isStudent: true };
