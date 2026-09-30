@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Script Basics</title>
+  </head>
+  <body>
+    <h1>Maynard's JavaScript Refresher</h1>
+
+    <script>
+      console.log("Inline script ran: Hi I'm maynard");
+    </script>
+    <script type="module" src="app.js"></script>
+    <script type="module">
+      import { userInfo } from "./15_modules_export.js";
+      console.log(userInfo.name);
+    </script>
+  </body>
+</html>
