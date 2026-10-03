@@ -64,3 +64,26 @@ Para sakin, dito ko na gets ang tatlong paraan ng pag gawa ng function. Ang gree
 
 
 
+## Filename
+04_objects.js
+
+## Prompt
+```
+Hi agy, Maynard here. Work on 04_objects.js only and leave all other files alone.
+
+Practice objects using my own details:
+1. Create a person object with my name "Maynard", my age 21, and my course "BSIS".
+2. Access one property with dot notation and another with bracket notation.
+3. Add favoriteSubject with the value "Application Development".
+4. Add an introduce() method that logs a sentence about me.
+5. Update my age to 22 then delete the course property.
+6. Log the object after each change.
+
+Write the code now, run node 04_objects.js, and explain each step in simple words.
+```
+
+## Reflection
+Para sakin, dito ko na gets na ang object ay lalagyan ng related na info tungkol sa isang bagay kaya ginawa kong person object ang name, age, at course ko. Kaya may dalawang paraan para kunin ang value which is dot notation para sa person.name at bracket notation para sa person["course"]. Nag add din ako ng favoriteSubject at method na introduce() kaya gumamit ng this para makuha ang name at favoriteSubject sa loob ng object. Natutunan ko na ang pag assign ng bagong value ay pang update tulad ng age na naging 22 at ang delete keyword ay pang alis ng property tulad ng course. Kaya sa huling log wala na ang course sa object.
+
+
+
