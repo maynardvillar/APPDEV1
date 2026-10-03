@@ -214,6 +214,46 @@ go
 
 
 
+## Filename
+10_let_const.js
+
+## Prompt
+Hi agy, Maynard here. Look at 10_let_const.js only and don't change anything yet.
+
+Act like a code reviewer for my variable declarations. Tell me in simple words:
+1. When I should use const, with an example using my name "Maynard".
+2. When I should use let, with an example using my age 21.
+3. Why var is a bad idea in modern JavaScript.
+
+Then give me just one improvement for this file, nothing more.
+
+Next, search my whole refresher folder for any var declarations. Don't edit anything.
+
+For each one, tell me the file name and whether it can safely become let or const, with a short reason. Then wait for my approval before changing anything.
+
+Approved for the var city change only. Change var city to const city in 10_let_const.js and nothing else. Do not swap name and age, because those lines are meant to show let and const behavior. Then run node 10_let_const.js and explain the output.
+
+## Reflection
+- I realize here po na const ang default tapos let lang kapag magbabago ung value, kaya ung var city ay naging const city kasi di naman siya nire reassign.
+
+- Ung pinaka challenging naman po para saakin dito is ung suggestion ni agy na i swap ung name at age. Pag sinunod ko siya masisira ung demo ng file kaya ung var city lang ang pina approve ko haha.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

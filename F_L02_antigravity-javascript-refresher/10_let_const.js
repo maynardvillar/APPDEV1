@@ -11,5 +11,5 @@ try {
 }
 console.log(age);
 
-var city = "Apalit";
+const city = "Apalit";
 console.log(city);
