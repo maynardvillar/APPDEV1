@@ -10,5 +10,5 @@ let a = 20, b = 4;
 console.log("Add:", a + b);
 console.log("Divide:", a / b);
 
-console.log("5" == 5);
-console.log("5" === 5);
+console.log("21" == 21);
+console.log("21" === 21);

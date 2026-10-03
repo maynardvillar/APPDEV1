@@ -20,3 +20,23 @@ Para sakin, dito ko na gets na case sensitive ang JavaScript kaya magkaiba ang m
 
 
 
+## Filename
+02_variables.js
+
+## Prompt
+Hi agy, I'm Maynard, a 3rd year IS student reviewing JavaScript basics. Please focus on 02_variables.js only and leave every other file alone.
+
+Don't edit anything for now. First, teach me using examples from my own life:
+1. How a string, a number, and a boolean differ, using my name "Maynard", my age 21, and isStudent set to true.
+2. What typeof returns for each of those three values.
+3. Why 21 == "21" gives a different result from 21 === "21".
+
+After that, read 02_variables.js and give me a short step by step plan for finishing it. Wait for my approval before touching the file.
+
+Looks good, I approve the plan. Go ahead and update the equality checks in 02_variables.js, then run node 02_variables.js and explain the output line by line.
+
+## Reflection
+Para sakin, dito ko na gets ang difference ng string, number, at boolean gamit ang sarili kong info na Maynard, 21, at true. Kaya ang typeof ay nagbabalik ng string, number, at boolean para sa bawat isa. Natutunan ko rin na ang == ay nagko convert ng type kaya ang "21" == 21 ay true, pero ang === ay chine check pati ang type kaya ang "21" === 21 ay false. Kaya mas safe gamitin ang === para iwas bug. Nakita ko rin sa output na ang Add ay 24 at ang Divide ay 5 dahil a = 20 at b = 4.
+
+
+
