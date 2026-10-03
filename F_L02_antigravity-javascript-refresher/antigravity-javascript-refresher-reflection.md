@@ -87,3 +87,27 @@ Para sakin, dito ko na gets na ang object ay lalagyan ng related na info tungkol
 
 
 
+## Filename
+05_arrays.js
+
+## Prompt
+```
+Hi agy, Maynard here. Work on 05_arrays.js only and leave all other files alone.
+
+Practice arrays using my own details:
+1. Create an array called subjects with 4 of my subjects: "Application Development", "Statistics", "Financial Management", "Business Process Management".
+2. Access the first and last items using their index.
+3. Use push to add "Gender and Society" and pop to remove the last item.
+4. Use shift and unshift to remove and add an item at the front.
+5. Log the array and its length after each change.
+
+Write the code now, run node 05_arrays.js, and explain each step in simple words.
+```
+
+## Reflection
+Para sakin, dito ko na gets na ang array ay listahan ng maraming items na may index na nagsisimula sa 0 kaya ang subjects[0] ay Application Development at ang subjects[3] ay Business Process Management. Kaya ang push at pop ay para sa dulo ng array dahil nag add ako ng Gender and Society tapos tinanggal ko ulit. Ang shift at unshift naman ay para sa unahan kaya natanggal ang Application Development at nadagdag ang Web Development sa harap. Napansin ko rin na nagbabago ang length sa bawat change kaya naging 4 tapos 5 tapos 4 tapos 3 tapos 4 ulit.
+
+
+
+
+
