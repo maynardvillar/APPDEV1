@@ -133,3 +133,22 @@ Para sakin, dito ko na gets na ang if, else if, at else ay pang decision kaya ch
 
 
 
+## Filename
+07_dom.html
+
+## Prompt
+```
+Hi agy, Maynard here. Work on 07_dom.html only and leave all other files alone.
+
+Practice the DOM using my own details:
+1. Add a heading that says "Maynard's Profile" and a paragraph with my course BSIS.
+2. Use document.getElementById to change the paragraph text.
+3. Use document.querySelector to change the heading color.
+4. Add a button that changes the paragraph text when clicked using addEventListener.
+5. Create a new list item with document.createElement and append it to a list.
+
+Write the code now and explain each step in simple words. Tell me how to open it in the browser.
+```
+
+## Reflection
+Para sakin, dito ko na gets na ang DOM ang paraan para makontrol ng JavaScript ang laman ng webpage. Ang getElementById ay pang hanap ng element gamit ang id kaya nabago ko ang text ng paragraph ng course ko. Ang querySelector naman ay gumagamit ng CSS selector kaya nahanap ko ang heading gamit ang class at napalitan ang color niya. Gamit ang addEventListener nakikinig ang button sa click kaya kapag pinindot ko ito nagbabago ulit ang paragraph. Ang createElement ay pang gawa ng bagong li kaya nilagyan ko ng text na Statistics tapos nilagay sa ul gamit ang appendChild. Kaya natutunan ko na HTML file ito kaya sa browser ko siya bubuksan at hindi gamit ang node.

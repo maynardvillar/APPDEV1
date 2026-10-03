@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>DOM Practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maynard's Profile</title>
 </head>
 <body>
-  <h1>Maynard's DOM Practice</h1>
-  <button id="changeColorBtn">Change Background</button>
-  <p id="message">This paragraph will update in 2 seconds.</p>
 
-  <script>
-    const button = document.getElementById("changeColorBtn");
-    button.addEventListener("click", () => {
-      const color = prompt("What color should the background be?");
-      document.body.style.backgroundColor = color;
-    });
+    <!-- 1. HTML Elements (Heading, Paragraph, Button, List) -->
+    <h1 class="profile-title">Maynard's Profile</h1>
+    <p id="course-info">Course: BSIS</p>
+    
+    <button id="update-btn">Update Profile Info</button>
 
-    const message = document.getElementById("message");
-    setTimeout(() => {
-      message.textContent = "This paragraph updated itself after 2 seconds.";
-    }, 2000);
-  </script>
+    <h3>My Subjects:</h3>
+    <ul id="subject-list">
+        <li>Application Development</li>
+    </ul>
+
+    <script>
+        // 2. document.getElementById
+        // We find the paragraph by its exact ID and change its text slightly right as the page loads.
+        let courseParagraph = document.getElementById("course-info");
+        courseParagraph.textContent = "Course: BSIS (Bachelor of Science in Information Systems)";
+
+        // 3. document.querySelector
+        // We find the heading by its class name (using the dot . notation like in CSS) and change its color.
+        let heading = document.querySelector(".profile-title");
+        heading.style.color = "blue";
+
+        // 4. addEventListener
+        // We find the button, and tell it to "listen" for a "click". When clicked, it runs the function to change the text again.
+        let button = document.getElementById("update-btn");
+        button.addEventListener("click", function() {
+            courseParagraph.textContent = "Course: BSIS - 3rd Year (Text changed by button click!)";
+            courseParagraph.style.fontWeight = "bold";
+        });
+
+        // 5. document.createElement and appendChild
+        // We create a brand new <li> tag from scratch, give it text, and attach it to the end of our <ul> list.
+        let ulList = document.getElementById("subject-list");
+        let newListItem = document.createElement("li");
+        
+        newListItem.textContent = "Statistics"; // Add text to the new <li>
+        ulList.appendChild(newListItem);        // Glue it onto the bottom of the <ul>
+        
+    </script>
 </body>
 </html>
