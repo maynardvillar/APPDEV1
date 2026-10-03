@@ -1,12 +1,23 @@
-const numbers = [5, 10, 15];
-const newNumbers = [...numbers, 20, 25];
-console.log(newNumbers);
+// 1. Spread Operator (Arrays)
+const mySubjects = ["Application Development", "Statistics"];
+const updatedSubjects = [...mySubjects, "Financial Management"];
 
-const user = { name: "Maynard", age: 21 };
-const newUser = { ...user, course: "BSIS" };
-console.log(newUser);
+console.log("Spread Array:");
+console.log("Original Subjects:", mySubjects);
+console.log("Updated Subjects:", updatedSubjects);
 
-function sum(...args) {
-  return args.reduce((total, n) => total + n, 0);
+// 2. Spread Operator (Objects)
+const profile = { name: "Maynard", age: 21 };
+const updatedProfile = { ...profile, course: "BSIS", age: 22 };
+
+console.log("\nSpread Object:");
+console.log("Original Profile:", profile);
+console.log("Updated Profile:", updatedProfile);
+
+// 3. Rest Operator (Functions)
+function collectArgs(...args) {
+    console.log("\nRest Operator:");
+    console.log("Collected Args:", args);
 }
-console.log(sum(2, 4, 6, 8));
+
+collectArgs("Maynard", 21, "BSIS", true);

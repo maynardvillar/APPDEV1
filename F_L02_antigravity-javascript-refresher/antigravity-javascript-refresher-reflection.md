@@ -281,7 +281,22 @@ Then explain why function SongCard({ title, artist }) works in React, and connec
 
 
 
+## Filename
+13_spread_rest.js
 
+## Prompt
+Hi agy, Maynard here. Work on 13_spread_rest.js only.
+
+Finish it using my own data, like my subjects array and a profile object with my name and age. Add console.logs that prove the original array and object did not change after spreading, and that rest collected all the function arguments into args. Run it.
+
+Then review the file for mutation risks without editing anything more: does any line change the original array or object? Connect it to React state updates. Keep your replies short.
+
+## Reflection
+- Natutunan ko po na ung spread ay gumagawa ng bagong copy, kaya ung original subjects at profile ko hindi nagbago nung nag add ako ng Financial Management at nag update ng age.
+
+- Ung pinaka challenging naman po para saakin dito is ung rest operator kasi parang kabaliktaran siya ng spread, imbis na mag copy ng laman, nag collect siya ng lahat ng arguments sa isang array na args.
+
+- Connected din po ito sa React kasi kailangan ng bagong array o object para ma notice ng React ung change, kaya spread ang gamit imbis na .push().
 
 
 
