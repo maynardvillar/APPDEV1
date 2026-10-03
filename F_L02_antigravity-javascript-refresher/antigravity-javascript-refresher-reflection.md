@@ -240,9 +240,24 @@ Approved for the var city change only. Change var city to const city in 10_let_c
 
 
 
+## Filename
+11_arrow_functions.js
 
+## Prompt
+Hi agy, Maynard here. Open 11_arrow_functions.js only.
 
+Turn the regular functions into arrow functions without changing what they do, then run it.
 
+Tell me which ones use implicit return and which use a function body. Keep your replies short.
+
+Now explain it, no React app: why does React use () => setCount(count + 1) inside onClick? Connect it to the arrow functions in my file. Keep it short.
+
+## Reflection
+- Na gets ko po na ung greet at square ay implicit return kasi one liner lang sila, tapos ung sayHi ay may function body kasi may curly braces at console.log.
+
+- Ung pinaka challenging naman po para saakin dito is ung nakita ni agy na arrow functions na pala lahat sa file ko, kaya wala siyang binago at nag run nalang siya haha.
+
+- Natutunan ko rin na sa React ung onClick ay kailangan ng function na mag run later, kaya () => setCount(count + 1) ang gamit, kasi kung walang arrow mag run agad ung setCount pag nag load ung page.
 
 
 
