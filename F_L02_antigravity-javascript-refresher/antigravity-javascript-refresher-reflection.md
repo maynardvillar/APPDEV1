@@ -262,7 +262,22 @@ Now explain it, no React app: why does React use () => setCount(count + 1) insid
 
 
 
+## Filename
+12_destructuring.js
 
+## Prompt
+Hi agy, Maynard here. Work on 12_destructuring.js only.
+
+Write it using my own data, like my name, age, and subjects, then run it.
+
+Explain these 3 forms in simple words: object destructuring, array destructuring, and destructuring inside function parameters.
+
+Then explain why function SongCard({ title, artist }) works in React, and connect it to printName({ name }) in my file. Keep your replies short.
+
+## Reflection
+-  dito po is ung sa 3 forms ng destructuring: object by name, array by order, at sa function parameters kaya ung { name, course } diretso na sa parenthesis.
+
+- Ung pinaka challenging naman po para saakin dito is ung array destructuring, kasi by order siya at hindi by name, kaya ung firstSubject agad ung Application Development.
 
 
 

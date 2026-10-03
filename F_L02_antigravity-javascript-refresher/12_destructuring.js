@@ -1,13 +1,15 @@
-const person = { name: "Maynard", age: 21 };
-const { name, age } = person;
-console.log(name, age);
+// 1. Object Destructuring
+const profile = { name: "Maynard", age: 21, course: "BSIS" };
+const { name, age } = profile;
+console.log("Object:", name, age);
 
-const hobbies = ["Eating", "gaming", "sleeping"];
-const [hobby1, hobby2] = hobbies;
-console.log(hobby1, hobby2);
+// 2. Array Destructuring
+const subjects = ["Application Development", "Statistics", "Financial Management"];
+const [firstSubject, secondSubject] = subjects;
+console.log("Array:", firstSubject, secondSubject);
 
-function printName({ name }) {
-  console.log(name);
+// 3. Destructuring inside Function Parameters
+function printName({ name, course }) {
+    console.log(`Parameter: Hi, I'm ${name} studying ${course}.`);
 }
-
-printName(person);
+printName(profile);
