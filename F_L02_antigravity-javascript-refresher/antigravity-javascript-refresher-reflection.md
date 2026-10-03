@@ -152,3 +152,44 @@ Write the code now and explain each step in simple words. Tell me how to open it
 
 ## Reflection
 Para sakin, dito ko na gets na ang DOM ang paraan para makontrol ng JavaScript ang laman ng webpage. Ang getElementById ay pang hanap ng element gamit ang id kaya nabago ko ang text ng paragraph ng course ko. Ang querySelector naman ay gumagamit ng CSS selector kaya nahanap ko ang heading gamit ang class at napalitan ang color niya. Gamit ang addEventListener nakikinig ang button sa click kaya kapag pinindot ko ito nagbabago ulit ang paragraph. Ang createElement ay pang gawa ng bagong li kaya nilagyan ko ng text na Statistics tapos nilagay sa ul gamit ang appendChild. Kaya natutunan ko na HTML file ito kaya sa browser ko siya bubuksan at hindi gamit ang node.
+
+
+## Filename
+08_essential_features.js
+
+## Prompt
+Hi agy, Maynard here. Work on 08_essential_features.js only and leave all other files alone.
+
+Read the file first and practice the essential JavaScript features it covers using my own details such as my name Maynard, my age 21, and my course BSIS.
+
+Write the code now, run node 08_essential_features.js, and explain each feature in simple words.
+
+## Reflection
+- I realize here po na ung .map() mas madali pala kesa sa for loop. Ginamit ko siya sa subjects ko tapos nag print siya ng sentence para sa bawat isa.
+
+- Natutunan ko rin ung object destructuring. Imbis na ulit ulitin ko ung profile.name pwede ko na palang kunin agad ung name, age, course sa isang line lang.
+
+- Ung spread operator parang ibinubuhos mo ung laman ng isang array sa isa pang array. Ginamit ko siya para pagsamahin ung firstSemSubjects at ung iba kong subjects.
+
+- Nakita ko rin ung template literals na may backticks at ${name}. Mas madali siya kesa sa maraming plus sign haha.
+
+- Ung pinaka challenging naman po para saakin dito is ung screenshot kasi png pala ung nasave ko. Kailangan ko pang i rename into jpeg para pareho sa ibang parts.
+
+- Nag change din ako ng model sa agy gamit ung /model para ma save ung quota haha.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
