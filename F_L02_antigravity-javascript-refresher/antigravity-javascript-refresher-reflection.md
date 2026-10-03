@@ -179,7 +179,38 @@ Write the code now, run node 08_essential_features.js, and explain each feature 
 
 
 
+## Filename
+09_tricky_parts.js
 
+## Prompt
+Hi agy, it's Maynard. I want to practice the confusing parts of JavaScript in 09_tricky_parts.js only, so please leave my other files alone.
+
+Open the file and read it first. Before you run anything, guess what each console.log will print and show your guesses in a small table with a short reason for each one. Wait for me to say go.
+
+Once I say go, run the file with node and tell me which guesses were right and which were wrong.
+
+Then teach me in simple words, like I'm a 3rd year IS student who is still getting used to this:
+1. Why a regular method can use this.name but an arrow method cannot.
+2. Why changing a copied array can also change my original array, and why spreading it keeps the original safe.
+
+For your own example use my name "Maynard" and my subjects array so I can follow it easily.
+
+go
+
+## Reflection
+- I realize here po na ung == nagko convert ng type kaya true ung 21 == "21", pero ung === chine check pati type kaya false.
+
+- Ung undefined at null magkaiba pala. Ang undefined ay walang value na nilagay, ung null ay sinadya mong ilagay na walang laman.
+
+- Ung this naman, ung regular method nababasa niya ung name na Maynard kasi alam niya kung saang object siya nakatira. Ung arrow function walang sariling this kaya undefined ung lumabas haha.
+
+- Ung pinaka challenging naman po para saakin dito is ung copy by reference. Ginamit ni agy na example ung whiteboard, so isang whiteboard lang pala tapos dalawa ung pangalan. Kaya pati ung original array nagbago nung nag push ng 40.
+
+- Ung spread naman parang nag print ka ng photo ng whiteboard. Kaya ung original [10, 20, 30, 40] hindi nagalaw nung nag push ng 50 sa copy.
+
+- Nag predict muna kami bago i run ung file at tama lahat ng guess ni agy sa table haha.
+
+- Nagkamali din ako sa una kasi masyadong kamukha ng sa PDF ung prompt ko. Inulit ko siya sa sarili kong words para customized.
 
 
 
