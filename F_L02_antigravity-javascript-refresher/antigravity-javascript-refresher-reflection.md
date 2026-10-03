@@ -111,3 +111,25 @@ Para sakin, dito ko na gets na ang array ay listahan ng maraming items na may in
 
 
 
+## Filename
+06_control_structures.js
+
+## Prompt
+```
+Hi agy, Maynard here. Work on 06_control_structures.js only and leave all other files alone.
+
+Practice control structures using my own details:
+1. Use if, else if, and else to check my age 21 and log whether I am a minor, an adult, or a senior.
+2. Use a for loop to log the numbers 1 to 5.
+3. Use a while loop to count down from 5 to 1.
+4. Use a switch statement on my favorite subject "Application Development" with at least 3 cases and a default.
+5. Log a label before each result.
+
+Write the code now, run node 06_control_structures.js, and explain each step in simple words.
+```
+
+## Reflection
+Para sakin, dito ko na gets na ang if, else if, at else ay pang decision kaya chine check ng computer ang conditions mula taas pababa. Kaya sa age kong 21 nilaktawan ang age < 18 tapos pumasok sa age < 60 kaya lumabas na adult ako. Ang for loop ay gamit kapag alam ko kung ilang beses uulit kaya nag print ito ng 1 hanggang 5. Ang while loop naman ay kailangan kong i manage ang counter kaya may count-- sa loob para hindi mag infinite loop at bumaba ang bilang mula 5 hanggang 1. Sa switch statement chine check niya ang favoriteSubject at tumatakbo ang tamang case kaya may break para hindi pumasok sa ibang case. Kapag walang tumama may default na tatakbo.
+
+
+
