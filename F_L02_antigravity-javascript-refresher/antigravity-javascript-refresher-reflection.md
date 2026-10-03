@@ -40,3 +40,27 @@ Para sakin, dito ko na gets ang difference ng string, number, at boolean gamit a
 
 
 
+
+
+## Filename
+03_functions.js
+
+## Prompt
+Hi agy, Maynard again. Work on 03_functions.js only and leave all other files alone.
+
+I want to practice three kinds of functions using my own details:
+1. greet(name) as a function declaration that returns a greeting for me.
+2. square(num) as an arrow function that I can test with my age 21.
+3. calculator(a, b) that returns an object holding the sum, difference, product, and quotient of a and b.
+
+Before editing, show me your plan and wait for my approval.
+After I approve, write the code, call each function with my own values, and run node 03_functions.js.
+If anything fails, explain the error first before fixing it. Then explain each function in simple words.
+
+Plan approved. Write the code in 03_functions.js, run node 03_functions.js, and explain each function in simple words.
+
+## Reflection
+Para sakin, dito ko na gets ang tatlong paraan ng pag gawa ng function. Ang greet ay function declaration kaya gumagamit ng function keyword at nag return ng "Hello, Maynard!". Ang square ay arrow function kaya mas maikli ang sulat at nag return ng 441 nung nilagay ko ang age kong 21. Ang calculator naman ay nag return ng object kaya nakuha ko ang sum, difference, product, at quotient sa isang return lang, kaya ang result ay sum 25, difference 15, product 100, at quotient 4 para sa 20 at 5. Natutunan ko na ang return ang nagbibigay ng final value ng function para magamit ko ito sa console.log.
+
+
+
