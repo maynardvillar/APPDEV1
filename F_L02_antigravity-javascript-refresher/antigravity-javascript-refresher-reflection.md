@@ -419,6 +419,64 @@ Then make 8 sample names and 8 numeric strings for testing, including messy spac
 
 
 
+## Filename
+20_array_methods.js
+
+## Prompt
+Hi agy, Maynard here. Work on 20_array_methods.js only.
+
+Finish it using my own data, like my subjects and grades, then run it. Make a small table showing when to use filter, find, some, every, and sort.
+
+Then review the file and give me exactly one improvement. Don't edit it. Keep your replies short.
+
+## Reflection
+- Base sa table ni agy, iba iba ang job nila: filter ay lahat ng match, find ay ung una lang, some ay at least one, every ay lahat, at sort ay para sa ayos ng items.
+
+- Ung pinaka challenging naman po para saakin dito is ung pag tanda kung alin ung nagbabalik ng array, isang item, o boolean, kasi magkakamukha silang lima.
+
+- Ung one improvement ni agy is maglagay ng label sa console.log, parang "Passing students:", para mas malinaw ang output pag nag de debug.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
