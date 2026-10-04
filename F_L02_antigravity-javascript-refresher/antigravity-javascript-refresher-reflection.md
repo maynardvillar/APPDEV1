@@ -439,6 +439,22 @@ Then review the file and give me exactly one improvement. Don't edit it. Keep yo
 
 
 
+## Filename
+21_errors_json.js
+
+## Prompt
+Hi agy, Maynard here. Work on 21_errors_json.js only.
+
+Before coding, list the success case and the failure case for divide(a, b). Then write it using my own numbers, add the JSON part with a user object about me, and run it.
+
+Explain why catch stops the program from crashing, what type jsonString is, what type parsedUser is, and why JSON matters for APIs. Keep your replies short.
+
+Now test a broken version of my JSON string, like one with single quotes or a missing quote. Don't edit the file. Show the error, tell me what JSON.parse expected, and give the smallest fix. Wait for my approval. Keep it very short.
+
+## Reflection
+- Sa output, ang try catch ay parang safety net, kasi kahit nag error ang divide(90, 0) nag print pa rin siya ng "Cannot divide by zero!" at nag continue ang program.
+
+- Ung pinaka challenging naman po para saakin dito is ung JSON, kasi ung jsonString is string pero ang parsedUser ay object, kaya kailangan ko pang i parse para magamit ung name.
 
 
 
