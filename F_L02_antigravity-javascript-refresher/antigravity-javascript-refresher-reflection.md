@@ -357,7 +357,24 @@ Explain why one import uses curly braces and the other doesn't. Keep your replie
 
 
 
+## Filename
+17_logical_operators.js
 
+## Prompt
+Hi agy, Maynard here. Open 17_logical_operators.js only.
+
+Before running it, make me a prediction table for every value in the file. Wait for my go.
+
+After I say go, run it and point out the surprising cases like [] and {}. Then explain username && "Welcome!", "" || "default", and !canLogIn, and show how the same idea works in JSX conditional rendering. Keep your replies short.
+
+go
+
+## Reflection
+- Tama lahat ng 12 predictions ni agy, at ung surprising ay ung [] at {} na truthy kahit mukhang empty, kasi lahat ng array at object ay truthy sa JavaScript.
+
+- Ung pinaka challenging naman po para saakin dito is ung nag quota limit ung Gemini, kaya nag switch ako sa Claude Sonnet gamit ung /model para ma continue ung part.
+
+- Natutunan ko rin na ang && ay para sa show only if true, ang || ay para sa fallback value, at ang ! ay nag flip ng boolean, kaya ganun din ang gamit nila sa JSX conditional rendering.
 
 
 
