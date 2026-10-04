@@ -1,8 +1,10 @@
-const userInfo = { name: "maynard", age: 21 };
-
-function greet() {
-  return "Hello from Maynard's module!";
+// 1. Default Export (Only one per file)
+export default function greet() {
+    return "Hello, I am Maynard!";
 }
 
-export default greet;
-export { userInfo };
+// 2. Named Export (You can have as many as you want)
+export const userInfo = {
+    name: "Maynard",
+    course: "BSIS"
+};

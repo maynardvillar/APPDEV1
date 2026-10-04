@@ -319,7 +319,22 @@ Last, explain how class Old extends React.Component relates to function New({ na
 
 
 
+## Filename
+15_modules_export.js
 
+## Prompt
+Hi agy, Maynard here. Work on 15_modules_export.js only.
+
+Before editing, explain in simple words the difference between a default export and a named export.
+
+Then write a default export called greet and a named export called userInfo, using my own name and course BSIS. Don't run it yet, since the import file comes next. Keep your replies short.
+
+## Reflection
+- ung default export is isa lang per file at pwede mong palitan ang pangalan pag nag import, tapos ang named export ay pwedeng marami pero dapat exact name na may curly braces.
+
+- Ung pinaka challenging naman po para saakin dito is ung pag tanda kung alin ang walang curly braces, kasi ung default export lang ang ganun.
+
+- Hindi ko muna ni run ung file sa part na to kasi sa Part 16 pa ang import, kaya dun ko makikita ung actual output.
 
 
 
