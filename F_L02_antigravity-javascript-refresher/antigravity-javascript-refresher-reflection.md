@@ -337,6 +337,32 @@ Then write a default export called greet and a named export called userInfo, usi
 - Hindi ko muna ni run ung file sa part na to kasi sa Part 16 pa ang import, kaya dun ko makikita ung actual output.
 
 
+## Filename
+16_modules_import.js
+
+## Prompt
+Hi agy, Maynard here. Open @15_modules_export.js and @16_modules_import.js.
+
+Write the import file so it brings in both greet and userInfo, then run it with node.
+
+Explain why one import uses curly braces and the other doesn't. Keep your replies short.
+
+## Reflection
+- Sa import line, ung greet ay walang curly braces kasi default export siya, tapos ung { userInfo } ay may curly braces kasi named export siya.
+
+- Ung pinaka challenging naman po para saakin dito is ung nag create si agy ng package.json na hindi ko expected, pero kailangan pala yun para gumana ung import syntax sa Node.
+
+- Pag run ng file, lumabas ung Hello, I am Maynard! at ung Imported User: Maynard, Course: BSIS kaya connected na ung dalawang file.
+
+
+
+
+
+
+
+
+
+
 
 
 
