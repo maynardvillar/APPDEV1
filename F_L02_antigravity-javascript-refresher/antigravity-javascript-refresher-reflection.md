@@ -399,7 +399,22 @@ Explain when a ternary beats if else, when it gets too hard to read, and which f
 
 
 
+## Filename
+19_strings_numbers.js
 
+## Prompt
+Hi agy, Maynard here. Work on 19_strings_numbers.js only.
+
+Finish the string and number exercises using my own examples, then run it. Explain which methods help with cleaning user input, search filtering, price formatting, and detecting invalid numbers.
+
+Then make 8 sample names and 8 numeric strings for testing, including messy spaces, invalid numbers, decimals, and values like "42px". Don't change the file again. Keep your replies short.
+
+## Reflection
+- Natutunan ko ung sa .trim() ay para sa cleaning ng input, ang .includes() ay para sa search, ang .toFixed(2) ay para sa price, at ang Number.isNaN() ay para sa invalid numbers.
+
+- Ung pinaka challenging naman po para saakin dito is ung parseInt, kasi ang "42px" ay nagiging 42 pero ang "px42" ay NaN, kaya tricky siya pag may units ang value.
+
+- Ung 8 sample names at 8 numeric strings na ginawa ni agy ay may messy spaces, empty string, at null, kaya pwede ko na silang gamitin pang test sa file.
 
 
 
