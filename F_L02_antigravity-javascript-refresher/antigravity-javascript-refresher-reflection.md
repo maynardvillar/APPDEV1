@@ -300,6 +300,24 @@ Then review the file for mutation risks without editing anything more: does any 
 
 
 
+## Filename
+14_classes_inheritance.js
+
+## Prompt
+Hi agy, Maynard here. Work on 14_classes_inheritance.js only.
+
+Before editing, explain in simple words: what a class is, what constructor does, what extends does, and why class names use PascalCase.
+
+Then write Person and Student using my own details, like my name and my course BSIS, and run it.
+
+Last, explain how class Old extends React.Component relates to function New({ name }) in React. Keep your replies short.
+
+## Reflection
+- Natutunan ko po na ang class ay blueprint, ang constructor ang nagse set ng initial data, at ang extends ang nag inherit ng Person papunta sa Student kaya hindi ko na kailangan ulitin ung code.
+
+- Ung pinaka challenging naman po para saakin dito is ung PascalCase, pero okay na kasi para alam agad na blueprint siya at hindi regular na variable.
+
+
 
 
 
