@@ -379,6 +379,29 @@ go
 
 
 
+## Filename
+18_ternary_nullish.js
+
+## Prompt
+Hi agy, Maynard here. Work on 18_ternary_nullish.js only.
+
+Write a pass or fail ternary and an even or odd ternary using my own numbers, then add examples that compare age || 18 with age ?? 18 when age is 0, null, and undefined. Run it.
+
+Explain when a ternary beats if else, when it gets too hard to read, and which fallback is safer for API data. Keep your replies short.
+
+## Reflection
+- Sa output makikita na age0 || 18 ay 18 pero age0 ?? 18 ay 0, kasi ang || ay pinapalitan pati ung 0, tapos ang ?? ay null at undefined lang ang pinapalitan.
+
+- Ung pinaka challenging naman po para saakin dito is ung pag decide kung kailan gagamit ng ternary, kasi pag nested na siya mahirap na basahin kaya mas okay na ung if else o switch.
+
+- Para sa API data, ?? ang mas safe kasi hindi nawawala ung valid values na 0, false, at empty string.
+
+
+
+
+
+
+
 
 
 
