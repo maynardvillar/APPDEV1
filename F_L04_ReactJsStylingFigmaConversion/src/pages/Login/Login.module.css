@@ -171,15 +171,17 @@
    Tighten all spacing; hide logo; simplify border-radius.
    ===================================================== */
 @media (max-width: 480px) {
-    /* Wrapper: let height grow with content */
+    /* Wrapper: fill the full screen — no blue space above or below */
     .login {
-        min-height: unset;
+        min-height: 100vh;
     }
 
-    /* Left panel: tighter padding */
+    /* Left panel: column so tagline and figma link stack vertically */
     .left {
+        flex-direction: column;
+        align-items: flex-start;
         padding: 20px 16px;
-        gap: 16px;
+        gap: 8px;
     }
 
     /* Tagline: smallest readable size */
