@@ -176,50 +176,73 @@
         min-height: 100vh;
     }
 
-    /* Left panel: column so tagline and figma link stack vertically */
+    /* Left panel: row+wrap so logo sits beside tagline; link wraps below */
     .left {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
         padding: 20px 16px;
-        gap: 8px;
+        gap: 10px 12px;
     }
 
-    /* Tagline: smallest readable size */
+    /* Tagline: takes remaining width beside the logo */
     .tagline {
+        flex: 1;
         font-size: 16px;
     }
 
-    /* Logo: hidden — saves all vertical space for the form */
+    /* Logo: small, sits beside the tagline */
     .logo {
-        display: none;
+        display: block;
+        height: 70px;
+        max-height: 70px;
+        width: auto;
+        margin: 0;
+        order: -1;
     }
 
-    /* Right panel: simplified radius, tighter padding */
+    /* Figma link: full width so it wraps onto its own line below */
+    .link {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* Right panel: top-align form; equal left/right padding for symmetric spacing */
     .right {
         border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-        padding: 32px 16px;
+        padding-top: 40px;
+        padding-bottom: 32px;
+        padding-left: 24px;
+        padding-right: 24px;
+        align-items: flex-start;
+        justify-content: center;
     }
 
-    /* Heading: tight margin, smaller font */
+    /* Form: centered horizontally within the padded panel */
+    .form {
+        margin: 0 auto;
+    }
+
+    /* Heading: more space below to breathe */
     .form h2 {
         font-size: 22px;
+        margin-bottom: 36px;
+    }
+
+    /* Inputs: comfortable vertical spacing */
+    .form input {
+        padding: 14px 0 12px;
         margin-bottom: 28px;
     }
 
-    /* Inputs: tighter padding and spacing */
-    .form input {
-        padding: 12px 0 10px;
-        margin-bottom: 20px;
-    }
-
-    /* Login button: slightly shorter, tighter top margin */
+    /* Login button: more space above */
     .form button {
         height: 52px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     /* "Don't have an account?" link */
     .signup {
-        margin-top: 16px;
+        margin-top: 24px;
     }
 }
