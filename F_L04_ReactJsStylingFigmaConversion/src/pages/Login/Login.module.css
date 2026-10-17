@@ -114,3 +114,110 @@
     text-decoration: none;
 }
 
+/* =====================================================
+   RESPONSIVE — Tablet (≤ 768px)
+   Collapse side-by-side columns into a single column.
+   Branding panel becomes a compact top strip.
+   ===================================================== */
+@media (max-width: 768px) {
+    /* Wrapper: stack vertically, fill full viewport width */
+    .login {
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+
+    /* Left panel: full-width top strip, row layout */
+    .left {
+        width: 100%;
+        padding: 32px 24px;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+    }
+
+    /* Tagline: smaller to fit beside the logo */
+    .tagline {
+        font-size: 20px;
+    }
+
+    /* Logo: shrink to sit beside the tagline */
+    .logo {
+        height: 100px;
+        max-height: 100px;
+        margin: 0;
+    }
+
+    /* Right panel: round the top corners instead of the left side */
+    .right {
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        padding: 40px 24px;
+    }
+
+    /* Form: fill the panel */
+    .form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Heading: cut down the large 110px gap below "Sign-in" */
+    .form h2 {
+        margin-bottom: 48px;
+    }
+}
+
+/* =====================================================
+   RESPONSIVE — Mobile (≤ 480px)
+   Tighten all spacing; hide logo; simplify border-radius.
+   ===================================================== */
+@media (max-width: 480px) {
+    /* Wrapper: let height grow with content */
+    .login {
+        min-height: unset;
+    }
+
+    /* Left panel: tighter padding */
+    .left {
+        padding: 20px 16px;
+        gap: 16px;
+    }
+
+    /* Tagline: smallest readable size */
+    .tagline {
+        font-size: 16px;
+    }
+
+    /* Logo: hidden — saves all vertical space for the form */
+    .logo {
+        display: none;
+    }
+
+    /* Right panel: simplified radius, tighter padding */
+    .right {
+        border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+        padding: 32px 16px;
+    }
+
+    /* Heading: tight margin, smaller font */
+    .form h2 {
+        font-size: 22px;
+        margin-bottom: 28px;
+    }
+
+    /* Inputs: tighter padding and spacing */
+    .form input {
+        padding: 12px 0 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Login button: slightly shorter, tighter top margin */
+    .form button {
+        height: 52px;
+        margin-top: 10px;
+    }
+
+    /* "Don't have an account?" link */
+    .signup {
+        margin-top: 16px;
+    }
+}
