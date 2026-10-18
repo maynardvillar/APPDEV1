@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+
+:root {
+  /* Colors */
+  --color-page-bg: #f4f4f4;
+  --color-card: #ffffff;
+  --color-primary: #4b687a;
+  --color-accent: #5f7c8d;
+  --color-muted: rgba(95, 124, 141, 0.55);
+  --color-white: #ffffff;
+  --color-facebook: #1877f2;
+
+  /* Typography */
+  --font-main: "Istok Web", sans-serif;
+  --font-size-heading: 64px;
+  --font-size-text: 24px;
+  --weight-regular: 400;
+  --weight-bold: 700;
+
+  /* Shape */
+  --radius-card: 20px;
+  --line-thickness: 3px;
+}
+
